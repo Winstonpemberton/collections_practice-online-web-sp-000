@@ -46,4 +46,5 @@ def find_a(array)
       chars.join
     end
   end
+  new_array
 end
