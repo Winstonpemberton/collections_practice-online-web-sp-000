@@ -56,7 +56,7 @@ end
 def add_s (array)
   counter = 1
     array.collect do |strings|
-      if count == 1 || 3 || 4
+      if counter == 1 || 3 || 4
         strings << "s"
       end
     counter += 1
