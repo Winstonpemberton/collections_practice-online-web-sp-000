@@ -28,10 +28,5 @@ end
 
 def kesha_maker(array)
   array.each do |strings|
-    strings.to_a
-    strings.each do |string|
-      string[2] = "$"
-    end
-    strings.join
   end
 end
