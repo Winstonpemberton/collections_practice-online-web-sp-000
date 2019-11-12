@@ -55,6 +55,6 @@ end
 
 def add_s (array)
     array.collect do |strings|
-    strings << "!"
+    strings << "s"
   end
 end
