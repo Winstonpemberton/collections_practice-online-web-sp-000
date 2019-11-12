@@ -54,7 +54,7 @@ def sum_array (array)
 end
 
 def add_s (array)
-  array.each do |strings|
-  strings << "!"
-end
+    array.colect do |strings|
+    strings << "!"
+  end
 end
