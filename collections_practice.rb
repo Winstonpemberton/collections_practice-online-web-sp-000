@@ -59,8 +59,8 @@ def add_s (array)
       counter += 1
       if counter == 1 || 3 || 4
         strings << "s"
+      else
+        strings << ""
       end
-    else
-      strings << ""
   end
 end
