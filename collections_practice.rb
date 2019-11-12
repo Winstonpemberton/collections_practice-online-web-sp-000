@@ -27,9 +27,11 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
+  new_strings = []
   array.each do |strings|
     chars = strings.split("")
     chars[2] = "$"
-    chars.join
+    new_strings << chars.join
   end
+  new_strings
 end
