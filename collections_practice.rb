@@ -60,7 +60,7 @@ def add_s (array)
       if counter == 2
         strings << ""
       else
-        strings << "2"
+        strings << "s"
       end
   end
 end
