@@ -54,12 +54,12 @@ def sum_array (array)
 end
 
 def add_s (array)
-  counter = 1
+  counter = 0
     array.collect do |strings|
+      counter += 1
       if counter == 1 || 3 || 4
         strings << "s"
       end
-    counter += 1
   end
   array
 end
