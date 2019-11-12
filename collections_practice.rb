@@ -35,3 +35,13 @@ def kesha_maker(array)
   end
   new_strings
 end
+
+def find_a(array)
+  new_array = []
+  array.each do |strings|
+    chars = strings.split("")
+    if chars[0] == "a"
+      new_array << chars.join
+    else
+      chars.join
+end
