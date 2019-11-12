@@ -45,4 +45,5 @@ def find_a(array)
     else
       chars.join
     end
+  end
 end
