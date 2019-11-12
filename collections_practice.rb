@@ -44,4 +44,5 @@ def find_a(array)
       new_array << chars.join
     else
       chars.join
+    end
 end
